@@ -367,6 +367,7 @@ header {
   width: 100%;
   height: 333px;
   background: #273a47;
+  margin-bottom: 35px;
   .conteiner {
     @include cont;
     height: 333px;
@@ -414,8 +415,14 @@ footer {
   height: 430px;
   width: 100%;
   background: #fff;
+  position: relative;
   .conteiner {
     @include cont;
+    .c4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
     .mother1 {
       height: 371px;
       width: 320px;
@@ -424,7 +431,6 @@ footer {
       justify-content: space-between;
     }
     .logo1 {
-      margin-top: 35px;
       margin-bottom: 13px;
       width: 300px;
       display: flex;
@@ -498,6 +504,101 @@ footer {
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+    }
+    .info1 {
+      width: 200px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .cn h3 {
+      color: #000;
+      font-family: "Kaushan Script";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .cn img {
+      width: 173px;
+      height: 10px;
+    }
+    .handc {
+      height: 106px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .handc li {
+      color: #000;
+
+      font-family: Kameron;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .siteicons {
+      width: 142px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .siteicons img {
+      width: 30px;
+      height: 30px;
+    }
+    .sandb {
+      width: 525px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .sandb input {
+      width: 339px;
+      height: 40px;
+      border-radius: 12px;
+      border: 1px solid #000;
+      background: #fff;
+      padding-left: 10px;
+      ::placeholder {
+        color: #000;
+        font-family: Karma;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    button {
+      width: 148px;
+      height: 40px;
+      border: none;
+      border-radius: 12px;
+      background: #273a47;
+      color: #fff;
+      font-family: Karma;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    button :hover {
+      background-color: #000000;
+    }
+    .sbh h6 {
+      color: #000;
+      font-family: Karla;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .sbh {
+      position: absolute;
+      right: 5%;
+      bottom: 10%;
     }
   }
 }

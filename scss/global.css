@@ -574,6 +574,7 @@ header .conteiner .fa-bars {
   width: 100%;
   height: 333px;
   background: #273a47;
+  margin-bottom: 35px;
 }
 .s4 .conteiner {
   margin: 0 auto;
@@ -625,10 +626,16 @@ footer {
   height: 430px;
   width: 100%;
   background: #fff;
+  position: relative;
 }
 footer .conteiner {
   margin: 0 auto;
   max-width: 1261px;
+}
+footer .conteiner .c4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 footer .conteiner .mother1 {
   height: 371px;
@@ -638,7 +645,6 @@ footer .conteiner .mother1 {
   justify-content: space-between;
 }
 footer .conteiner .logo1 {
-  margin-top: 35px;
   margin-bottom: 13px;
   width: 300px;
   display: flex;
@@ -712,4 +718,106 @@ footer .conteiner .location h6 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+footer .conteiner .info1 {
+  width: 200px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .conteiner .cn h3 {
+  color: #000;
+  font-family: "Kaushan Script";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner .cn img {
+  width: 173px;
+  height: 10px;
+}
+footer .conteiner .handc {
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .conteiner .handc li {
+  color: #000;
+  font-family: Kameron;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner .siteicons {
+  width: 142px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .conteiner .siteicons img {
+  width: 30px;
+  height: 30px;
+}
+footer .conteiner .sandb {
+  width: 525px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .conteiner .sandb input {
+  width: 339px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: #fff;
+  padding-left: 10px;
+}
+footer .conteiner .sandb input ::-moz-placeholder {
+  color: #000;
+  font-family: Karma;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner .sandb input ::placeholder {
+  color: #000;
+  font-family: Karma;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner button {
+  width: 148px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background: #273a47;
+  color: #fff;
+  font-family: Karma;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner button :hover {
+  background-color: #000000;
+}
+footer .conteiner .sbh h6 {
+  color: #000;
+  font-family: Karla;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .conteiner .sbh {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
 }/*# sourceMappingURL=global.css.map */
