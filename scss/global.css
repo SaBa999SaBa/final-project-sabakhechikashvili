@@ -225,7 +225,7 @@ header .conteiner .mother ul {
 }
 header .conteiner .mother ul li {
   color: #000;
-  font-family: JejuMyeongjo;
+  font-family: Nanum Myeongjo;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -251,7 +251,7 @@ header .conteiner .search {
 }
 header .conteiner ::-moz-placeholder {
   color: #000;
-  font-family: JejuMyeongjo;
+  font-family: Nanum Myeongjo;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -259,7 +259,7 @@ header .conteiner ::-moz-placeholder {
 }
 header .conteiner ::placeholder {
   color: #000;
-  font-family: JejuMyeongjo;
+  font-family: Nanum Myeongjo;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -467,7 +467,7 @@ header .conteiner .fa-bars {
 }
 .s2 .conteiner .card h3 {
   color: #000;
-  font-family: JejuMyeongjo;
+  font-family: Nanum Myeongjo;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -490,7 +490,7 @@ header .conteiner .fa-bars {
   border-radius: 5px;
   background: rgba(11, 37, 56, 0.8);
   color: #fff;
-  font-family: JejuMyeongjo;
+  font-family: Nanum Myeongjo;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -633,6 +633,8 @@ footer {
   width: 100%;
   background: #fff;
   position: relative;
+  background: #d9d9d9;
+  padding-top: 35px;
 }
 footer .conteiner {
   margin: 0 auto;
@@ -805,6 +807,7 @@ footer .conteiner .sandb input {
   border: 1px solid #000;
   background: #fff;
   padding-left: 10px;
+  margin-bottom: 11px;
 }
 footer .conteiner .sandb input ::-moz-placeholder {
   color: #000;
@@ -1144,7 +1147,7 @@ footer .conteiner .location h6 {
   .s7 .info a {
     display: block;
     color: #fff;
-    font-family: JejuMyeongjo;
+    font-family: Nanum Myeongjo;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1183,6 +1186,7 @@ footer .conteiner .location h6 {
 }
 .s8 .conteiner .background h2 {
   color: #fff;
+  text-shadow: -5px 4px 7px rgba(0, 0, 0, 0.97);
   font-family: Judson;
   font-size: 70px;
   font-style: normal;
@@ -1228,13 +1232,13 @@ footer .conteiner .location h6 {
 }
 @media (max-width: 766px) {
   .s9 .conteiner .sectionname img {
-    width: 150.5px;
+    width: 180.5px;
     height: 15px;
   }
 }
 @media (max-width: 518px) {
   .s9 .conteiner .sectionname img {
-    width: 60.5px;
+    width: 100.5px;
     height: 15px;
   }
 }
@@ -1254,5 +1258,476 @@ footer .conteiner .location h6 {
 @media (max-width: 518px) {
   .s9 .conteiner .sectionname h3 {
     font-size: 16px;
+  }
+}
+
+.s10 .conteiner {
+  margin: 0 auto;
+  max-width: 1261px;
+}
+.s10 .conteiner .products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+  row-gap: 204px;
+  margin-bottom: 134px;
+}
+.s10 .conteiner .product {
+  width: 300px;
+  height: 618px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 780px) {
+  .s10 .conteiner .product {
+    width: 250px;
+  }
+}
+@media (max-width: 524px) {
+  .s10 .conteiner .product {
+    width: 85%;
+  }
+}
+.s10 .conteiner .product img {
+  width: 300px;
+  height: 324px;
+}
+@media (max-width: 780px) {
+  .s10 .conteiner .product img {
+    width: 250px;
+  }
+}
+@media (max-width: 524px) {
+  .s10 .conteiner .product img {
+    width: 85%;
+  }
+}
+.s10 .conteiner .product h4 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 780px) {
+  .s10 .conteiner .product h4 {
+    font-size: 24px;
+  }
+}
+.s10 .conteiner .product button {
+  width: 300px;
+  height: 68px;
+  border-radius: 20px;
+  background: #24253c;
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+@media (max-width: 780px) {
+  .s10 .conteiner .product button {
+    width: 250px;
+    height: 48px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 524px) {
+  .s10 .conteiner .product button {
+    width: 85%;
+  }
+}
+.s10 .conteiner .product button :hover {
+  background: #010324;
+}
+.s10 .conteiner .product div {
+  width: 300px;
+  height: 68px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 780px) {
+  .s10 .conteiner .product div {
+    width: 250px;
+  }
+}
+@media (max-width: 524px) {
+  .s10 .conteiner .product div {
+    width: 85%;
+  }
+}
+.s10 .conteiner .product div h5 {
+  color: #000;
+  font-family: Nanum Myeongjoo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s10 .conteiner .product div .minus {
+  width: 20px;
+  font-size: 40px;
+}
+.s10 .conteiner .product div .plus {
+  font-size: 40px;
+}
+.s10 .conteiner .selector {
+  width: 136px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 0 auto;
+  margin-bottom: 190px;
+}
+.s10 .conteiner .selector .selected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 40px;
+  height: 40px;
+  background: #d9d9d9;
+}
+.s10 .conteiner .selector .selected h5 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s10 .conteiner .selector div {
+  background: rgba(217, 217, 217, 0.5);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+.s10 .conteiner .selector div h5 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.s11 .conteiner {
+  margin: 0 auto;
+  max-width: 1261px;
+}
+@media (max-width: 1340px) {
+  .s11 .conteiner {
+    width: 95%;
+  }
+}
+.s11 .conteiner .subtitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 119px;
+}
+.s11 .conteiner .subtitles h5 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .subtitles h5 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .subtitles h5 .prevnext {
+    display: none;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .subtitles .prevnext {
+    display: none;
+  }
+}
+.s11 .conteiner .columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 347px;
+  gap: 10px;
+}
+.s11 .conteiner .columns .pictures {
+  width: 599px;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+.s11 .conteiner .columns .pictures .big {
+  width: 599px;
+  height: 599px;
+}
+@media (max-width: 1280px) {
+  .s11 .conteiner .columns .pictures .big {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 872px) {
+  .s11 .conteiner .columns .pictures .big {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 686px) {
+  .s11 .conteiner .columns .pictures .big {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .columns .pictures .big {
+    width: 168px;
+    height: 155.659px;
+  }
+}
+.s11 .conteiner .columns .pictures div {
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 1280px) {
+  .s11 .conteiner .columns .pictures div {
+    width: 240px;
+  }
+}
+@media (max-width: 872px) {
+  .s11 .conteiner .columns .pictures div {
+    width: 150px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .columns .pictures div {
+    width: 109px;
+  }
+}
+.s11 .conteiner .columns .pictures div .small {
+  width: 158px;
+  height: 158px;
+}
+@media (max-width: 1280px) {
+  .s11 .conteiner .columns .pictures div .small {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1280px) and (max-width: 872px) {
+  .s11 .conteiner .columns .pictures div .small {
+    width: 50px;
+    height: 50px;
+  }
+}
+.s11 .conteiner .columns .information {
+  width: 583px;
+  height: 749px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information {
+    height: 500px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .columns .information {
+    height: 400px;
+  }
+}
+.s11 .conteiner .columns .information h2 {
+  color: #000;
+  font-family: Metal;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .columns .information h2 {
+    font-size: 20px;
+  }
+}
+.s11 .conteiner .columns .information h3 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information h3 {
+    font-size: 16px;
+  }
+}
+.s11 .conteiner .columns .information .p1 {
+  color: #000;
+  font-family: Kameron;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .p1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .p1 {
+    font-size: 13px;
+  }
+}
+.s11 .conteiner .columns .information .p2 {
+  color: #000;
+  font-family: Kameron;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .p2 {
+    display: none;
+  }
+}
+.s11 .conteiner .columns .information h4 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information h4 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information h4 {
+    font-size: 14px;
+  }
+}
+.s11 .conteiner .columns .information .shopping {
+  width: 131px;
+  height: 66.833px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .shopping {
+    width: 80px;
+    height: 33px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .shopping {
+    width: 53px;
+    height: 29px;
+  }
+}
+.s11 .conteiner .columns .information .shopping h5 {
+  color: #000;
+  font-family: Nanum Myeongjo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .shopping h5 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .shopping h5 {
+    font-size: 16px;
+  }
+}
+.s11 .conteiner .columns .information .buybutton {
+  display: flex;
+  flex-direction: row;
+}
+.s11 .conteiner .columns .information .buybutton button {
+  width: 426px;
+  height: 76px;
+  border-radius: 20px;
+  background: #24253c;
+  color: #fff;
+  font-family: Jomolhari;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .buybutton button {
+    width: 213px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .buybutton button {
+    width: 103px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
+.s11 .conteiner .columns .information .buybutton button :hover {
+  background: #03053b;
+}
+@media (max-width: 1072px) {
+  .s11 .conteiner .columns .information .buybutton img {
+    width: 38px;
+    height: 38px;
+  }
+}
+@media (max-width: 505px) {
+  .s11 .conteiner .columns .information .buybutton img {
+    width: 20px;
+    height: 20px;
   }
 }/*# sourceMappingURL=global.css.map */
